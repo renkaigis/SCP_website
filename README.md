@@ -3,31 +3,39 @@
 Static rebuild of the International Society for Smart Construction and
 Production website.
 
-The archived WordPress export in `isscpi/` is treated as a read-only content
-source. The generated website, assets, and build tooling live in the repository
-root.
+## Project Structure
+
+- `isscpi/`: read-only WordPress backup and source archive.
+- `tools/build-site.mjs`: static site generator.
+- `src/styles/`: editable CSS source.
+- `src/scripts/`: editable browser JavaScript source.
+- `public/`: generated static website for local preview and GitHub Pages.
+
+The repository root is intentionally kept clean. Do not edit the generated
+HTML in `public/` directly; update the generator or source assets, then rebuild.
 
 ## Build
 
 ```bash
-node generate.mjs
+npm run build
 ```
+
+The build reads from `isscpi/`, copies archived media into `public/assets/`,
+adds the source CSS and JavaScript, and generates:
+
+- A redesigned institutional homepage
+- All archived WordPress pages and posts at their preserved URL paths
+- Structured top-level pages for About, Research, Membership, Awards,
+  Conferences, Journals, Governance, IPC2026, Contact, and nominations
+- News archive, client-side search, 404 page, sitemap, robots file, and CNAME
 
 ## Preview
 
 ```bash
-python3 -m http.server 4173
+npm run serve
 ```
 
 Then open `http://localhost:4173`.
-
-The generator creates:
-
-- A redesigned institutional homepage
-- All 17 archived WordPress pages
-- All 12 archived posts at their original URL paths
-- News archive, client-side search, 404 page, sitemap, and robots file
-- Local copies of the archived media and documents
 
 Contact, nomination, and payment actions that previously depended on WordPress
 plugins are presented as static guidance with secretariat contact links.
