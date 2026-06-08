@@ -1,0 +1,38 @@
+{
+  "site": "https://isscpi.com/",
+  "backup_type": "public website crawl plus public WordPress REST API export",
+  "finalized_at": "2026-05-27T10:10:46+08:00",
+  "backup_root": "/Users/kai/Downloads/isscpi/backups/isscpi_public_backup_20260527_002951",
+  "site_file_count": 1062,
+  "total_site_bytes": 115798278,
+  "html_file_count": 183,
+  "xml_file_count": 19,
+  "image_file_count": 806,
+  "document_file_count": 3,
+  "wp_json_file_count": 19,
+  "public_api_totals": {
+    "api-collection:blocks": "0",
+    "api-collection:categories": "2",
+    "api-collection:comments": "0",
+    "api-collection:jetpack-testimonial": "0",
+    "api-collection:jp_pay_product": "0",
+    "api-collection:media": "61",
+    "api-collection:navigation": "2",
+    "api-collection:pages": "17",
+    "api-collection:posts": "12",
+    "api-collection:product": "8",
+    "api-collection:product_cat": "1",
+    "api-collection:product_tag": "0",
+    "api-collection:tags": "8",
+    "api-wc-store:products": "8"
+  },
+  "validated": {
+    "wp_rest_media_urls_present_locally": true,
+    "sitemap_locs_present_locally": true
+  },
+  "important_limitations": [
+    "This is a public backup made without WordPress admin/server credentials.",
+    "It includes public pages, public media/files, sitemaps, feeds, and public WordPress REST API JSON.",
+    "It does not include the private WordPress database, admin-only media, orders, users, form submissions, full plugin/theme source, or server configuration."
+  ]
+}

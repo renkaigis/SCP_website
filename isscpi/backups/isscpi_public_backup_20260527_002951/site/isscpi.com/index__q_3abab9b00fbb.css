@@ -1,0 +1,202 @@
+.featured-content {
+	background: #005689;
+	color: white;
+}
+
+@media screen and (min-width: 37.5em) {
+    .single .hentry .entry-content {
+        float: right;
+        clear: left;
+        margin: 0 0 0 25%;
+        padding: 35px;
+        width: 100%;
+    }
+}
+
+.main-navigation.add-seperators > div > ul > li:before {
+    border-bottom: 0px;
+}
+
+.footer-widget-area{
+	background: #005689;
+	color: whitesmoke;
+}
+.site-footer {
+    color: #777777;
+    background: #002147;
+}
+
+.single .hentry .entry-meta {
+	background: #337ab7
+}
+
+.single .hentry .entry-header {
+	background: #337ab7
+}
+
+.page .page .entry-header, .single .hentry:not(.post) .entry-header, .error404 .not-found .page-header, .search-no-results .not-found .page-header {
+	background: #337ab7
+}
+
+.entry-breadcrumbs {
+	background: #337ab7
+}
+
+.main-navigation > div > ul > li, .main-navigation.toggled-on > div > ul > li {
+	margin: -1px -1px 0;
+	width: calc(15%+2px);
+}
+
+.entry-breadcrumbs a, .single .hentry .entry-meta>*, .featured-content-inner .hentry:nth-of-type(3n+1) .entry-meta a, .comments-area>ol>li:nth-of-type(3n+1) h3 small a, .comment-reply-title a {
+	color: #FFB6C1;
+}
+
+.featured-content-inner .hentry:nth-of-type(3n+2) .entry-meta a, .featured-page-highlight .hentry a, .comments-area>ol>li:nth-of-type(3n+2) h3 small a {
+	color: #FFFF99;
+}
+
+.featured-content-inner .hentry:nth-of-type(3n+3) .entry-meta a, .featured-page-highlight .hentry a, .comments-area>ol>li:nth-of-type(3n+3) h3 small a {
+	color: #E0FFFF;
+}
+
+.featured-content-inner .hentry:nth-of-type(3n+4) .entry-meta a, .featured-page-highlight .hentry a, .comments-area>ol>li:nth-of-type(3n+4) h3 small a {
+	color: #005689;
+}
+
+.search-box .search-submit:focus, .single .hentry .entry-header:before, .single .hentry .entry-meta:before, .single .hentry .entry-title:before, .entry-breadcrumbs:before, .featured-content-inner .hentry:nth-of-type(3n+1):before, .featured-content-inner .hentry:nth-of-type(3n+1) .post-thumbnail, .footer-widget-area .widget:nth-of-type(3n+2):before {
+	border-color: #FFB6C1;
+}
+
+
+.featured-page-highlight .hentry, .featured-content-inner .hentry:nth-of-type(3n+2):before, .featured-content-inner .hentry:nth-of-type(3n+2) .post-thumbnail, .footer-widget-area .widget:nth-of-type(3n+3):before {
+	border-color: #FFFF99;
+}
+
+.featured-page-highlight .hentry, .featured-content-inner .hentry:nth-of-type(3n+3):before, .featured-content-inner .hentry:nth-of-type(3n+3) .post-thumbnail, .footer-widget-area .widget:nth-of-type(3n+4):before {
+	border-color: #E0FFFF;
+}
+
+@media screen and (min-width: 50em) {
+    .main-navigation > div > ul, .main-navigation.toggled-on > div > ul {
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.featured-page-highlight .hentry .entry-title {
+    background: #002147;
+}
+	
+.wp-block-file a.wp-block-file__button:hover,
+.wp-block-file a.wp-block-file__button:focus {
+	border: 1px solid #002147;
+	background: #002147;
+}
+	
+.wp-block-button .wp-block-button__link:hover,
+.wp-block-button .wp-block-button__link:focus {
+	background: #002147;
+}
+	
+.has-dark-gray-color,
+.has-dark-gray-color:hover,
+.has-dark-gray-color:focus,
+.has-dark-gray-color:active,
+.has-dark-gray-color:visited {
+	color: #002147;
+}
+	
+.has-dark-gray-background-color,
+.has-dark-gray-background-color:hover,
+.has-dark-gray-background-color:focus,
+.has-dark-gray-background-color:active,
+.has-dark-gray-background-color:visited {
+	background-color: #002147;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {
+  background: #002147;
+  border: 1px solid #002147;
+}
+	
+ .main-navigation > div > ul > li:hover,
+  .main-navigation > div > ul > li.focus,
+  .main-navigation.toggled-on > div > ul > li:hover,
+  .main-navigation.toggled-on > div > ul > li.focus {
+    background: #002147;
+}
+	
+  .main-navigation .sub-menu li.menu-item-has-children:hover ul li,
+  .main-navigation .sub-menu li.page_item_has_children:hover ul li,
+  .main-navigation .children li.menu-item-has-children:hover ul li,
+  .main-navigation .children li.page_item_has_children:hover ul li {
+    background: #002147;
+}
+	
+@media screen and (min-width: 60em) {
+    .header-wrap, .main-navigation, .site-content, .testimonials > *, .featured-content > *, .footer-widget-area .widget-area, .site-footer-wrap {
+        max-width: 85em;
+    }
+	.featured-page-highlight .hentry .entry-title {
+    background: #002147;
+	}
+}
+	
+@media screen and (min-width: 37.5em) {
+    .single .hentry .post-thumbnail {
+        background-color: lightblue;
+    }
+}
+
+#respond .comment-reply-title {
+    background: #005689;
+}
+	
+@media screen and (min-width: 50em) {
+    .main-navigation > div > ul > li, .main-navigation.toggled-on > div > ul > li {
+        /* margin: -1px -1px 0; */
+        width: auto;
+    }
+}
+	
+@media screen and (min-width: 50em) {
+    .no-sidebar .site-main, .error404 .site-main, .search-no-results .site-main {
+        margin: 0 0%;
+    }
+}
+	
+.footer-navigation a, h1, h2, h3, h4, h5, h6, .entry-content table thead tr, .posts-navigation a .meta-nav,
+.post-navigation a .meta-nav,
+.comment-navigation a .meta-nav, .featured-content-inner .hentry .entry-meta, .featured-content-inner .entry-meta, .featured-page-highlight .hentry .entry-meta, .testimonials .entry-meta, .single .hentry .entry-meta > a, .single .hentry .cat-links ul, .single .hentry .entry-meta > a, .comment-reply-title small, .comment-body .reply, .comment-meta .comment-metadata, #content .comment-meta .edit-link, .no-comments, .card .entry-header .entry-meta a, .card .entry-content .edit-link a, .card .entry-content .entry-meta a, .entry-breadcrumbs, .widget_nav_menu a, .widget_rss .rss-date, .site-content #secondary .widget_tag_cloud div a[style],
+.site-content #secondary .wp_widget_tag_cloud div a[style], .site-content #secondary .widget_categories ul, .widget_goodreads > div > div > div div[class^="gr_custom_author"], .time_machine_widget .time-machine-navigation a, .hentry > .sharedaddy:not(#jp-post-flair) .sd-title, #jp-post-flair h3.sd-title,
+#jp-post-flair div.sharedaddy h3.sd-title,
+#jp-post-flair .jp-relatedposts .jp-relatedposts-headline em {
+  text-transform: none;
+}
+	
+h1, h2, h3, h4 {
+    clear: both;
+    font-family: Arial, "Times New Roman", Times, serif;
+}
+	
+h1, h2, h3, h4 {
+	letter-spacing: 0em;
+}
+	
+.entry-content p, .entry-content li {
+	font-size: 1.2rem;
+}
+	
+.single .hentry .entry-content {
+	padding: 0px 50px;
+}
+	
+.featured-content img{
+	width: 450px;
+}
+
