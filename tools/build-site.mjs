@@ -25,17 +25,12 @@ const mediaById = new Map(media.map((item) => [item.id, item]));
 
 const navItems = [
   { label: "Home", href: "/" },
+  { label: "About", href: "/aboutus/" },
+  { label: "Governance", href: "/governance/" },
+  { label: "Membership", href: "/membership/" },
+  { label: "News", href: "/news/" },
   {
-    label: "About",
-    href: "/aboutus/",
-    children: [
-      { label: "Governance", href: "/governance/" },
-      { label: "Membership", href: "/membership/" },
-      { label: "Contact", href: "/contact-us/" },
-    ],
-  },
-  {
-    label: "Research",
+    label: "Task group",
     href: "/task-groups/",
     children: [
       {
@@ -79,7 +74,7 @@ const navItems = [
     ],
   },
   { label: "Journals", href: "/journals/" },
-  { label: "News", href: "/news/" },
+  { label: "Contact", href: "/contact-us/" },
 ];
 
 const taskGroups = [
@@ -344,7 +339,6 @@ function header(currentPath = "/") {
           <span>International Society for Smart Construction &amp; Production</span>
           <nav aria-label="Utility navigation">
             <a href="/search/">Search</a>
-            <a href="/contact-us/">Contact</a>
             <a href="mailto:secretary@isscpi.com">Email</a>
           </nav>
         </div>
@@ -470,9 +464,7 @@ function pageHero(item, path) {
     <section class="page-hero">
       <div class="shell">
         <div class="breadcrumbs"><a href="/">Home</a><span>/</span><span>${section}</span></div>
-        <p class="eyebrow">${section}</p>
         <h1>${escapeHtml(title)}</h1>
-        <p class="page-intro">${escapeHtml(description)}</p>
       </div>
     </section>`;
 }
